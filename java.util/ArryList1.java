@@ -30,6 +30,19 @@ public class ArrayList1 {
         {
             System.out.println(it.next());
         }
+        System.out.println(l.size());
+        int size= l.size();
+        Integer I[]=new Integer[size];
+        for(Integer k : I)
+        {
+            System.out.println(k);
+        }
+        l.toArray(I);
+        //I=(Integer[]) l.toArray();
+        for(Integer k : I)
+        {
+            System.out.println(k);
+        }
     }
     
 }

@@ -1,0 +1,32 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author student
+ */
+import java.util.Calendar;
+public class calander {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Calendar c=Calendar.getInstance();
+        System.out.println("current year is "+c.get(Calendar.YEAR));
+        System.out.println("current month is  " + c.get(Calendar.MONTH));
+        System.out.println("current date is  " + c.get(Calendar.DATE));
+        System.out.println("current Hour is  " + c.get(Calendar.HOUR));
+        System.out.println("current month is  " + c.get(Calendar.MONTH));
+        System.out.println("current month is  " + c.get(Calendar.MONTH));
+        System.out.println("current month is  " + c.get(Calendar.MONTH));
+        System.out.println("current month is  " + c.get(Calendar.MONTH));
+        System.out.println("current month is  " + c.get(Calendar.MONTH));
+        System.out.println("current month is  " + c.get(Calendar.MONTH));
+    }
+    
+}

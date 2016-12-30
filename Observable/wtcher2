@@ -1,0 +1,22 @@
+
+import java.util.Observable;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author student
+ */
+import java.util.*;
+public class wtcher2 implements Observer{
+    
+   
+     public void update(Observable obj , Object Obj1)
+    {
+        System.out.println(" update 2 is called"+Obj1);
+    }
+}

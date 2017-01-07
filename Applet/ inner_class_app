@@ -1,0 +1,32 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package applet;
+
+import java.applet.Applet;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+
+/**
+ *
+ * @author student
+ */
+public class inner_class_app extends Applet {
+
+    /**
+     * Initialization method that will be called after the applet is loaded into
+     * the browser.
+     */
+    public void init() {
+        addMouseListener(new MouseAdapter() {
+        public void mousePressed(MouseEvent me) {
+              showStatus("Mouse Pressed");
+}
+});
+        // TODO start asynchronous download of heavy resources
+    }
+
+    // TODO overwrite start(), stop() and destroy() methods
+}

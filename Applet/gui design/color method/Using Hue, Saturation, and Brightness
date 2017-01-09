@@ -1,0 +1,11 @@
+Using Hue, Saturation, and Brightness
+The hue-saturation-brightness (HSB) color model is an alternative to red-green-blue (RGB) for
+specifying particular colors. Figuratively, hue is a wheel of color. The hue is specified with a
+number between 0.0 and 1.0 (the colors are approximately red, orange, yellow, green, blue,
+indigo, and violet). Saturation is another scale ranging from 0.0 to 1.0, representing light pastels
+to intense hues. Brightness values also range from 0.0 to 1.0, where 1 is bright white and 0
+is black. Color supplies two methods that let you convert between RGB and HSB. They are
+shown here:
+
+static int HSBtoRGB(float hue, float saturation, float brightness)
+static float[ ] RGBtoHSB(int red, int green, int blue, float values[ ])

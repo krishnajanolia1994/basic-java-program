@@ -1,0 +1,4 @@
+Setting the Current Graphics Color
+By default, graphics objects are drawn in the current foreground color. You can change this
+color by calling the Graphics method setColor( ):
+void setColor(Color newColor)

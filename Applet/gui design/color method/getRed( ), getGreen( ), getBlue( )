@@ -1,0 +1,6 @@
+getRed( ), getGreen( ), getBlue( )
+You can obtain the red, green, and blue components of a color independently using getRed( ),
+getGreen( ), and getBlue( ), shown here:
+int getRed( )
+int getGreen( )
+int getBlue( )

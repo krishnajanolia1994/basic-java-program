@@ -1,0 +1,35 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+import java.applet.Applet;
+import java.awt.BorderLayout;
+import java.awt.TextArea;
+
+/**
+ *
+ * @author student
+ */
+public class borderLayout extends Applet {
+
+    /**
+     * Initialization method that will be called after the applet is loaded into
+     * the browser.
+     */
+    TextArea t;
+    String s="hello my name is krishna\n"+
+            "i lived innagpur \n"+
+            "situated near Sanwer";
+    public void init() {
+    
+        setLayout(new BorderLayout());
+        t=new TextArea(s,10,10,10);
+        add(t,BorderLayout.SOUTH);
+        
+
+    }
+
+    // TODO overwrite start(), stop() and destroy() methods
+}

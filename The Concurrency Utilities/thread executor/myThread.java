@@ -19,7 +19,7 @@ class myThread implements Runnable{
     public void run()
     {
         int i;
-        for(i=0;i<10;i++)
+        for(i=0;i<5;i++)
         {
             cdl.countDown();
             System.out.println(i+ " in thread  "+s);

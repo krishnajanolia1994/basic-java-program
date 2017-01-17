@@ -1,0 +1,9 @@
+The content pane can be obtained by calling getContentPane( ) on a JFrame instance.
+The getContentPane( ) method is shown here:
+Container getContentPane( )
+It returns a Container reference to the content pane. The add( ) method was then called on
+that reference to add a component to a content pane. Thus, in the past, you had to use the
+following statement to add jlab to jfrm:
+jfrm.getContentPane().add(jlab); // old-style
+Here, getContentPane( ) first obtains a reference to content pane, and then add( ) adds the
+component to the container linked to this pane.

@@ -1,0 +1,13 @@
+Thus, main( ) cannot directly
+instantiate a SwingDemo object. Instead, it must create a Runnable object that executes on
+the event dispatching thread and have this object create the GUI.
+
+Two methods that are defined by the SwingUtilities class. These methods are invokeLater( )
+and invokeAndWait( ). They are shown here:
+static void invokeLater(Runnable obj)
+static void invokeAndWait(Runnable obj)
+throws InterruptedException, InvocationTargetException
+
+Here, obj is a Runnable object that will have its run( ) method called by the event dispatching
+thread.The difference between the two methods is that invokeLater( ) returns immediately,
+but invokeAndWait( ) waits until obj.run( ) returns.
